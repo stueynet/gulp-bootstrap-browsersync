@@ -1,0 +1,33 @@
+@import "variables";
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+.jumbotron {
+    border-radius: 0;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: lowercase;
+}
+.logotype a {
+    text-decoration: none;
+}
+
+.logotype.light{
+    color: #FFFFFF;
+}
+.logotype a:hover {
+    color: #38ff95;
+}
+.logotype{
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: lowercase;
+}
+.logotype:first-letter{
+    color: #38ff95;
+    font-weight: 400;
+}
+.jumbotron{
+    background: #404040;
+}
